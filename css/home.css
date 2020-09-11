@@ -36,7 +36,7 @@
 
     transform: rotate(4deg);
     animation-name: zoomH1;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
 }
 @keyframes zoomH1 {
     from {
@@ -65,7 +65,7 @@
 .hero-banner__heading-2 {
     margin: 0;
     animation-name: zoomH2;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 @keyframes zoomH2 {
     from {
@@ -101,7 +101,7 @@
 .hero-banner__heading-3 {
     margin: 0 43px;
     animation-name: zoomH3;
-    animation-duration: 2s;
+    animation-duration: 3.5s;
 }
 @keyframes zoomH3 {
     from {
