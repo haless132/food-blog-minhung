@@ -76,7 +76,12 @@
         clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
     }
 }
-
+@media only screen and (min-width: 609px) {
+    .recipies__info {
+        width: 65%;
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    }
+}
 @media only screen and (min-width: 768px) {
     .recipies__info {
         width: 80%;
