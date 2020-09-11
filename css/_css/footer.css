@@ -1,0 +1,107 @@
+/* footer */
+.footer {
+    background-image: url(/images/footer-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 0 60px;
+}
+.footer__row {
+    padding: 60px 15px 50px 15px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer__row {
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 922px) {
+    .footer__row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media only screen and (min-width: 922px) {
+    .footer__col-left {
+        width: 50%;
+    }
+}
+
+.footer__col-left ul {
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .footer__col-left ul {
+        justify-content: flex-start;
+    }
+}
+.footer__col-left ul li {
+    margin-right: 20px;
+}
+.footer__col-left ul li a {
+    color: #474747;
+}
+@media only screen and (min-width: 768px) {
+    .footer__col-left ul li {
+        margin-right: 25px;
+    }
+    .footer__col-left ul li a {
+        color: #b8b8b8;
+    }
+}
+@media only screen and (min-width: 922px) {
+    .footer__col-right {
+        width: 50%;
+    }
+}
+.footer__col-right ul {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .footer__col-right ul {
+        justify-content: flex-start;
+    }
+    .footer__col-right ul li.li-start {
+        padding-left: 0;
+    }
+    .footer__col-right ul li.li-end {
+        padding-right: 0;
+    }
+}
+@media only screen and (min-width: 922px) {
+    .footer__col-right ul {
+        justify-content: flex-end;
+    }
+    .footer__col-right p {
+        text-align: right;
+    }
+}
+
+.footer__col-right ul li {
+    padding: 5px 10px;
+}
+.footer__col-right ul a {
+    color: #474747;
+    font-weight: 500;
+}
+li.active.active a {
+    color: #ff2a6b;
+    font-weight: bold;
+}
+.copyright {
+    padding-top: 20px;
+    font-size: 15px;
+    color: #838383;
+}
+
+.copyright a {
+    color: #007bff;
+}

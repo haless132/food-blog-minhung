@@ -1,0 +1,177 @@
+.contact__row {
+    padding: 96px 0;
+}
+@media only screen and (min-width: 992px) {
+    .contact__row {
+        display: flex;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .contact__col-left {
+        padding-right: 15px;
+        width: 65%;
+    }
+}
+.contact__col-left h2 {
+    margin-bottom: 75px;
+}
+@media only screen and (min-width: 768px) {
+    .name-email {
+        display: flex;
+        justify-content: space-between;
+    }
+    .name-fa {
+        padding-right: 15px;
+        border: 0;
+        width: 100%;
+    }
+    .email-fa {
+        padding-left: 15px;
+        border: 0;
+        width: 100%;
+    }
+}
+
+.name {
+    width: 100%;
+    height: 53px;
+
+    margin: 10px 0;
+    padding: 0 30px;
+    border: 0;
+
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    background-color: #eff3f7;
+}
+.email {
+    width: 100%;
+    height: 53px;
+
+    margin: 10px 0;
+    padding: 0 30px;
+    border: 0;
+
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    background-color: #eff3f7;
+}
+.subject {
+    width: 100%;
+    height: 53px;
+
+    margin: 10px 0;
+    padding: 0 30px;
+    border: 0;
+
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    background-color: #eff3f7;
+}
+.mesage {
+    width: 100%;
+    height: 250px;
+
+    margin-bottom: 25px;
+    padding: 30px;
+    border: 0;
+
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    background-color: #eff3f7;
+}
+
+.send {
+    margin-bottom: 55px;
+    padding: 18px 65px;
+    border: 0;
+    background-color: #ff2a6b;
+    color: #fff;
+    font-size: 14px;
+}
+@media only screen and (min-width: 922px) {
+    .send {
+        margin-bottom: 0;
+    }
+}
+/* contact-col-right */
+@media only screen and (min-width: 992px) {
+    .contact__col-right {
+        padding-left: 15px;
+        width: 35%;
+    }
+}
+.contact-logo {
+    padding-bottom: 40px;
+}
+.contact-info {
+    font-family: inherit;
+    line-height: 2.1;
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-info {
+        padding-left: 95px;
+    }
+}
+
+.contact-list {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-list {
+        display: flex;
+    }
+    .contact-list li {
+        margin-right: 60px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .contact-list {
+        flex-flow: row wrap;
+    }
+    .contact-list li {
+        width: 100%;
+    }
+}
+
+.contact-list li {
+    margin-bottom: 25px;
+}
+
+.contact-list li h4 {
+    color: #ff2a6b;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-list li h4::after {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+
+    height: 1px;
+    width: 100%;
+
+    background-color: #ff2a6b;
+}
+.contact-list li p {
+    font-size: 14.1px;
+}
+.contact-social {
+    display: flex;
+    flex-flow: row wrap;
+}
+.contact-social li {
+    margin-right: 32px;
+}
+.contact-social li a {
+    color: #212529;
+}
+/*     font-family: inherit; */

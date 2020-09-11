@@ -1,0 +1,143 @@
+/*/ recipies-page /*/
+.recipies-page {
+    padding: 96px 0;
+}
+
+.title__h2 {
+    margin-bottom: 48px;
+}
+
+.title__h2 h2 {
+    padding-top: 18px;
+    position: relative;
+
+    font-size: 36px;
+}
+
+.title__h2 h2::before {
+    content: "";
+
+    height: 6px;
+    width: 56px;
+
+    background-color: #ff2a6b;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+@media only screen and (min-width: 768px) {
+    .recipies__row {
+        margin: 0 -15px;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .recipies__col {
+        width: 50%;
+        padding: 0 15px;
+    }
+}
+@media only screen and (min-width: 922px) {
+    .recipies__col {
+        width: 33.3333%;
+        padding: 0 15px;
+    }
+}
+.recipies__col {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.recipies__col > img {
+    vertical-align: middle;
+}
+
+.recipies__info {
+    width: 100%;
+    background-color: #ff2a6b;
+    padding: 16px 25px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    opacity: 0.9;
+}
+
+@media only screen and (min-width: 375px) {
+    .recipies__info {
+        width: 90%;
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .recipies__info {
+        width: 80%;
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    }
+    .recipies__info {
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+    }
+}
+
+@media only screen and (min-width: 922px) {
+    .recipies__info {
+        width: 80%;
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    }
+}
+
+.recipies__info > p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.rating ul {
+    display: flex;
+}
+
+.rating ul li {
+    margin-right: 3px;
+}
+
+.rating ul li i {
+    color: #fbb710;
+    font-size: 11px;
+}
+
+.rating ul li i.is-fade {
+    color: #e0e3e4;
+}
+
+/*// page //*/
+.page {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.page button {
+    height: 48px;
+    width: 48px;
+    border: 0;
+
+    background-color: #cccccc;
+}
+
+button.page__button--active {
+    background-color: #ff2a6b;
+}
+.page button a {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}

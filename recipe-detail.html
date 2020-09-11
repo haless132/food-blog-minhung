@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Detail</title>
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- my fontawesome -->
+    <script src="https://kit.fontawesome.com/c79a8ca9fc.js" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/_css/header.css">
+    <link rel="stylesheet" href="/css/_css/footer.css">
+    <link rel="stylesheet" href="/css/recipe-detail.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar__row">
+                    <div class="top-bar__col-left">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar__col-right">
+                        <a href="#">Register</a>
+                        <span>/</span>
+                        <a href="#">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="top-white">
+            <div class="container">
+                <div class="top-white__row">
+                    <div class="top-white__col-left">
+                        <a href="index.html">
+                            <img src="/images/logo.svg" alt="logo-nc">
+                        </a>
+                    </div>
+                    <div class="top-white__col-center">
+                        <ul class="main-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="recipies.html">Recipies</a></li>
+                            <li class="active"><a href="recipe-detail.html">Recipe Detail</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-white__col-right">
+                        <div class="header-search">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="nav-switch">
+                            <i class="fa fa-bars"></i>
+
+                            <div class="show-hide">
+                                <ul class="nav-switch__menu">
+                                    <li class="li-start"><a href="index.html">Home</a></li>
+                                    <li><a href="recipies.html">Recipies</a></li>
+                                    <li class="active"><a href="recipe-detail.html">Recipe Detail</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="banner"></div>
+            <div class="recipe-detail">
+                <div class="container">
+                    <div class="recipe-meta">
+                        <div class="recipe-meta__begin">For Begginers</div>
+                        <h2>Lamb Chops with green peper sauce</h2>
+                        <p>May 15, 2018</p>
+                        <div class="rating">
+                            <ul>
+                                <li> <i class="fa fa-star"></i></li>
+                                <li> <i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star is-fade"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="recipe-detail__row">
+                        <div class="recipe-detail__col-left">
+                            <div class="header__gray">
+                                <div class="recipe-filter">
+                                    <p>Prep: 15 mins</p>
+                                    <p>Cook: 30 mins</p>
+                                    <p>Yields: 8 Servings</p>
+                                </div>
+                            </div>
+                            <div class="recipe-form">
+                                <h2>Ingredients</h2>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="one">
+                                        <label for="one">4 Tbsp (57 gr) butter</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="two">
+                                        <label for="two">2 large eggs</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="three">
+                                        <label for="three">2 yogurt containers granulated sugar</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="four">
+                                        <label for="four">1 vanilla or plain yogurt, 170g container</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="five">
+                                        <label for="five">White flour</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="six">
+                                        <label for="six">1.5 yogurt containers milk</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="seven">
+                                        <label for="seven">1/4 tsp cinnamon</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="eight">
+                                        <label for="eight">1 cup fresh blueberries </label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="recipe-detail__col-right">
+                            <ul class="info-list">
+                                <li>
+                                    <h2>01.</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius
+                                        dui. Suspendisse
+                                        potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis.
+                                        Cras a tortor enim.
+                                        Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque
+                                        penatibus et magni.</p>
+                                </li>
+                                <li>
+                                    <h2>02.</h2>
+                                    <p>Sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse
+                                        potenti. Vestibulum ac
+                                        pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim.
+                                        Phasellus posuere
+                                        vestibulum ipsum, eget lobortis purus.</p>
+                                </li>
+                                <li>
+                                    <h2>03.</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius
+                                        dui. Suspendisse
+                                        potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis.
+                                        Cras a tortor enim.
+                                        Phasellus posuere vestibulum ipsum</p>
+                                </li>
+                                <li>
+                                    <h2>04.</h2>
+                                    <p>Sit amet, consectetur adipiscing elit. Vestibulum nec varius dui. Suspendisse
+                                        potenti. Vestibulum ac
+                                        pellentesque tortor. Aenean congue sed metus in iaculis. Cras a tortor enim.
+                                        Phasellus posuere
+                                        vestibulum ipsum, eget lobortis.</p>
+                                </li>
+                                <li>
+                                    <h2>05.</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius
+                                        dui. Suspendisse
+                                        potenti. Vestibulum ac pellentesque tortor. Aenean congue sed metus in iaculis.
+                                        Cras a tortor enim.
+                                        Phasellus posuere vestibulum ipsum, eget lobortis purus. Orci varius natoque
+                                        penatibus et magni.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <nav class="footer">
+            <div class="footer__row">
+                <div class="footer__col-left">
+                    <a href="#">
+                        <img src="/images/logo.svg" alt="logo">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+
+                    </a>
+                </div>
+                <div class="footer__col-right">
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipies.html">Recipies</a></li>
+                        <li class="active"><a href="recipe-detail.html">Recipe Detail</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                    <p class="copyright">Copyright © 2020 All rights reserved | This template is made with <i
+                            class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a>
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
